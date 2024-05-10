@@ -1,0 +1,63 @@
+Documentation for Terminator Application and Its Unit Tests
+Main Script: Terminator Application
+
+How to run the main script:
+1. Inside Visual Studio Code
+ - open the project in visual studio code
+ - go to TerminatorApp folder by using the terminal "cd TerminatorApp"
+ - type "dotnet run" inside the terminal
+ - follow the application instructions
+ - hold down "q" for 3 seconds to forcefully close the app
+
+2. Inside the folder
+ - go to TerminatorApp\TerminatorApp\bin\Debug\net8.0
+ - open TerminatorApp.exe
+ - follow the application instructions
+
+How to run the test script:
+ Inside Visual Studio Code
+ - open the project in visual studio code
+ - go to TerminatorApp.Tests folder by using the terminal "cd TerminatorApp.Tests"
+ - type "dotnet test" inside the terminal
+ - observe the test results
+
+Overview
+The Terminator application is designed to monitor and control the execution time of a process based on user-defined settings. It allows users to specify a process to run, along with constraints on its maximum runtime and check intervals. Additionally, the application provides the ability to terminate the process prematurely through a key press.
+
+Key Components
+TerminatorConfig Class
+Properties:
+ProcessName: Name of the process to start.
+MaxRuntimeMs: Maximum allowable runtime in milliseconds.
+CheckIntervalMs: Interval for checking the process status in milliseconds.
+Terminator Class
+Methods:
+Main: Entry point of the application, orchestrates the overall process control flow.
+ReadAndParseConfiguration: Interactively reads configuration settings from the user input.
+ParseInput: Parses and validates the user input string into a TerminatorConfig object.
+StartProcess: Starts a process based on the provided process name.
+MonitorProcessAndKeyPress: Monitors the running process and listens for a key press to terminate the process.
+Key Functionality
+The application starts a specified process and monitors its runtime.
+The process can be terminated if it exceeds the specified maximum runtime.
+The user can terminate the process by holding the 'Q' key for 3 seconds.
+Usage Scenario
+The user inputs the name of the process, the maximum runtime in minutes, and the check interval in minutes. The application starts the process, monitors it, and terminates it if it exceeds the maximum runtime or if the 'Q' key is pressed for a sufficient duration.
+
+Unit Tests: TerminatorApp.Tests
+Overview
+The unit tests for the Terminator application are designed to validate the functionality of the input parsing mechanism, which is critical for setting up the monitoring configuration accurately.
+
+Key Components
+ConfigurationTests Class
+Contains tests to verify the correctness of the ParseInput method of the Terminator class.
+Test Methods
+ParseInput_ValidInput_ReturnsConfig: Ensures that valid input strings are correctly parsed into a TerminatorConfig object.
+ParseInput_InvalidFormat_ThrowsArgumentException: Checks that an ArgumentException is thrown when the input format does not meet the expected format.
+ParseInput_InvalidNumbers_ThrowsArgumentException: Verifies that an ArgumentException is thrown when the input contains invalid numeric values.
+Usage Scenario
+Unit tests are executed to confirm that the ParseInput method can handle various input scenarios correctly, ensuring the application behaves as expected under different user inputs.
+General Information
+Runtime Environment: The application is built in C# and requires a .NET compatible environment to run.
+External Dependencies: The application uses PInvoke for key state detection and NUnit for unit testing.
+Error Handling: Errors in starting the process or parsing input are handled gracefully, informing the user of the issue.
