@@ -1,0 +1,14 @@
+d:\TerminatorApp\TerminatorApp\bin\Debug\net8.0\TerminatorApp.exe
+d:\TerminatorApp\TerminatorApp\bin\Debug\net8.0\TerminatorApp.deps.json
+d:\TerminatorApp\TerminatorApp\bin\Debug\net8.0\TerminatorApp.runtimeconfig.json
+d:\TerminatorApp\TerminatorApp\bin\Debug\net8.0\TerminatorApp.dll
+d:\TerminatorApp\TerminatorApp\bin\Debug\net8.0\TerminatorApp.pdb
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.GeneratedMSBuildEditorConfig.editorconfig
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.AssemblyInfoInputs.cache
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.AssemblyInfo.cs
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.csproj.CoreCompileInputs.cache
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.dll
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\refint\TerminatorApp.dll
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.pdb
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\TerminatorApp.genruntimeconfig.cache
+d:\TerminatorApp\TerminatorApp\obj\Debug\net8.0\ref\TerminatorApp.dll

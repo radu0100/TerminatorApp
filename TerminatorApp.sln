@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminatorApp", "TerminatorApp\TerminatorApp.csproj", "{A6ABBAFA-A39B-46DB-BB8D-46713EF14EA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerminatorApp.Tests", "TerminatorApp.Tests\TerminatorApp.Tests.csproj", "{2C18190C-6D6E-4886-87AA-2C7F8566E78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6ABBAFA-A39B-46DB-BB8D-46713EF14EA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ABBAFA-A39B-46DB-BB8D-46713EF14EA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ABBAFA-A39B-46DB-BB8D-46713EF14EA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ABBAFA-A39B-46DB-BB8D-46713EF14EA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C18190C-6D6E-4886-87AA-2C7F8566E78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C18190C-6D6E-4886-87AA-2C7F8566E78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C18190C-6D6E-4886-87AA-2C7F8566E78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C18190C-6D6E-4886-87AA-2C7F8566E78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
